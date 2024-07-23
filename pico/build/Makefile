@@ -207,30 +207,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-Core/src/main.obj: Core/src/main.c.obj
-.PHONY : Core/src/main.obj
-
-# target to build an object file
-Core/src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/Core/src/main.c.obj
-.PHONY : Core/src/main.c.obj
-
-Core/src/main.i: Core/src/main.c.i
-.PHONY : Core/src/main.i
-
-# target to preprocess a source file
-Core/src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/Core/src/main.c.i
-.PHONY : Core/src/main.c.i
-
-Core/src/main.s: Core/src/main.c.s
-.PHONY : Core/src/main.s
-
-# target to generate assembly for a file
-Core/src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/Core/src/main.c.s
-.PHONY : Core/src/main.c.s
-
 home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1711,6 +1687,30 @@ home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/display.dir/build.make CMakeFiles/display.dir/src/main.c.s
+.PHONY : src/main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1726,9 +1726,6 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... display"
-	@echo "... Core/src/main.obj"
-	@echo "... Core/src/main.i"
-	@echo "... Core/src/main.s"
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -1914,6 +1911,9 @@ help:
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... src/main.obj"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

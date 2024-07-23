@@ -69,19 +69,19 @@ include CMakeFiles/display.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/display.dir/flags.make
 
-CMakeFiles/display.dir/Core/src/main.c.obj: CMakeFiles/display.dir/flags.make
-CMakeFiles/display.dir/Core/src/main.c.obj: ../Core/src/main.c
-CMakeFiles/display.dir/Core/src/main.c.obj: CMakeFiles/display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suyog/stuff/robocon_2024/display_project/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/display.dir/Core/src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/display.dir/Core/src/main.c.obj -MF CMakeFiles/display.dir/Core/src/main.c.obj.d -o CMakeFiles/display.dir/Core/src/main.c.obj -c /home/suyog/stuff/robocon_2024/display_project/pico/Core/src/main.c
+CMakeFiles/display.dir/src/main.c.obj: CMakeFiles/display.dir/flags.make
+CMakeFiles/display.dir/src/main.c.obj: ../src/main.c
+CMakeFiles/display.dir/src/main.c.obj: CMakeFiles/display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suyog/stuff/robocon_2024/display_project/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/display.dir/src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/display.dir/src/main.c.obj -MF CMakeFiles/display.dir/src/main.c.obj.d -o CMakeFiles/display.dir/src/main.c.obj -c /home/suyog/stuff/robocon_2024/display_project/pico/src/main.c
 
-CMakeFiles/display.dir/Core/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/display.dir/Core/src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/suyog/stuff/robocon_2024/display_project/pico/Core/src/main.c > CMakeFiles/display.dir/Core/src/main.c.i
+CMakeFiles/display.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/display.dir/src/main.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/suyog/stuff/robocon_2024/display_project/pico/src/main.c > CMakeFiles/display.dir/src/main.c.i
 
-CMakeFiles/display.dir/Core/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/display.dir/Core/src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/suyog/stuff/robocon_2024/display_project/pico/Core/src/main.c -o CMakeFiles/display.dir/Core/src/main.c.s
+CMakeFiles/display.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/display.dir/src/main.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/suyog/stuff/robocon_2024/display_project/pico/src/main.c -o CMakeFiles/display.dir/src/main.c.s
 
 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/display.dir/flags.make
 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1040,7 +1040,7 @@ CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_f
 
 # Object files for target display
 display_OBJECTS = \
-"CMakeFiles/display.dir/Core/src/main.c.obj" \
+"CMakeFiles/display.dir/src/main.c.obj" \
 "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1114,7 +1114,7 @@ display_OBJECTS = \
 # External object files for target display
 display_EXTERNAL_OBJECTS =
 
-display.elf: CMakeFiles/display.dir/Core/src/main.c.obj
+display.elf: CMakeFiles/display.dir/src/main.c.obj
 display.elf: CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 display.elf: CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 display.elf: CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

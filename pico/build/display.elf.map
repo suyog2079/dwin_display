@@ -58,10 +58,9 @@ Discarded input sections
  .debug_str     0x0000000000000000       0x94 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .text          0x0000000000000000        0x0 CMakeFiles/display.dir/Core/src/main.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/display.dir/Core/src/main.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/display.dir/Core/src/main.c.obj
- .text.init     0x0000000000000000       0x14 CMakeFiles/display.dir/Core/src/main.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/display.dir/src/main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/display.dir/src/main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/display.dir/src/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -83,8 +82,6 @@ Discarded input sections
                 0x0000000000000000      0x248 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_pad
                 0x0000000000000000       0x28 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_function
-                0x0000000000000000       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_function
                 0x0000000000000000       0x14 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_pulls
@@ -139,9 +136,6 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .bss.raw_irq_mask
                 0x0000000000000000        0x8 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .comment       0x0000000000000000       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .ARM.attributes
-                0x0000000000000000       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1593,9 +1587,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccbpjfkr.o
- .data          0x0000000000000000        0x0 /tmp/ccbpjfkr.o
- .bss           0x0000000000000000        0x0 /tmp/ccbpjfkr.o
+ .text          0x0000000000000000        0x0 /tmp/ccQOX29i.o
+ .data          0x0000000000000000        0x0 /tmp/ccQOX29i.o
+ .bss           0x0000000000000000        0x0 /tmp/ccQOX29i.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1859,11 +1853,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccbpjfkr.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccQOX29i.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x1f20
+.text           0x0000000010000100     0x1f98
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1924,198 +1918,203 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002bc       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text.init     0x0000000010000354       0x24 CMakeFiles/display.dir/src/main.c.obj
+                0x0000000010000354                init
  .text.startup.main
-                0x0000000010000354       0x14 CMakeFiles/display.dir/Core/src/main.c.obj
-                0x0000000010000354                main
+                0x0000000010000378       0x38 CMakeFiles/display.dir/src/main.c.obj
+                0x0000000010000378                main
+ .text.gpio_set_function
+                0x00000000100003b0       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100003b0                gpio_set_function
  .text.running_on_fpga
-                0x0000000010000368       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000368                running_on_fpga
+                0x00000000100003e0       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000000100003e0                running_on_fpga
  .text.hw_claim_or_assert
-                0x0000000010000378       0x44 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000378                hw_claim_or_assert
+                0x00000000100003f0       0x44 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100003f0                hw_claim_or_assert
  .text.spin_locks_reset
-                0x00000000100003bc       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003bc                spin_locks_reset
+                0x0000000010000434       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000434                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100003d8       0x18 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003d8                next_striped_spin_lock_num
+                0x0000000010000450       0x18 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000450                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x00000000100003f0       0x24 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100003f0                irq_set_enabled
+                0x0000000010000468       0x24 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000468                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x0000000010000414       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000414                irq_get_vtable_handler
+                0x000000001000048c       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000048c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010000424       0x54 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000424                irq_set_exclusive_handler
+                0x000000001000049c       0x54 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000049c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010000478      0x1b0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000478                irq_remove_handler
+                0x00000000100004f0      0x1b0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100004f0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000628       0xb4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000628                irq_add_tail_to_free_list
+                0x00000000100006a0       0xb4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006a0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x00000000100006dc       0x24 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006dc                irq_init_priorities
+                0x0000000010000754       0x24 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000754                irq_init_priorities
  .text.lock_init
-                0x0000000010000700       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000700                lock_init
+                0x0000000010000778       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000778                lock_init
  .text.mutex_init
-                0x0000000010000710       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000710                mutex_init
+                0x0000000010000788       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000788                mutex_init
  .text.recursive_mutex_init
-                0x000000001000072c       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000001000072c                recursive_mutex_init
+                0x00000000100007a4       0x1c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100007a4                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x0000000010000748       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000748                timer_pool_entry_comparator
+                0x00000000100007c0       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100007c0                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x000000001000077c       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100007f4       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000100007ac      0x100 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000824      0x100 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100008ac      0x1bc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000924      0x1bc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000a68       0x6c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000a68                alarm_pool_init_default
+                0x0000000010000ae0       0x6c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ae0                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000ad4      0x178 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ad4                alarm_pool_add_alarm_at
+                0x0000000010000b4c      0x178 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b4c                alarm_pool_add_alarm_at
  .text.best_effort_wfe_or_timeout
-                0x0000000010000c4c       0xd4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c4c                best_effort_wfe_or_timeout
+                0x0000000010000cc4       0xd4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cc4                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010000d20       0xbc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000d98       0xbc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000ddc       0x18 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000ddc                hardware_alarm_claim
+                0x0000000010000e54       0x18 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e54                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000df4       0x14 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000df4                time_us_64
+                0x0000000010000e6c       0x14 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e6c                time_us_64
  .text.busy_wait_us
-                0x0000000010000e08       0x54 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e08                busy_wait_us
+                0x0000000010000e80       0x54 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e80                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x0000000010000e5c       0x8c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e5c                hardware_alarm_set_callback
+                0x0000000010000ed4       0x8c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000ed4                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010000ee8       0xd4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000ee8                hardware_alarm_set_target
+                0x0000000010000f60       0xd4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000f60                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010000fbc       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000fbc                hardware_alarm_cancel
+                0x0000000010001034       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001034                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010000ff8       0x68 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001070       0x68 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001060       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001060                ph_post_alloc_init
+                0x00000000100010d8       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100010d8                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x000000001000109c       0x90 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000109c                ph_merge_two_pass
+                0x0000000010001114       0x90 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001114                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x000000001000112c      0x100 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100011a4      0x100 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x000000001000122c      0x104 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000122c                ph_remove_head
+                0x00000000100012a4      0x104 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100012a4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001330       0x7c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001330                ph_remove_and_free_node
+                0x00000000100013a8       0x7c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013a8                ph_remove_and_free_node
  .text.uart_init
-                0x00000000100013ac      0x188 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x00000000100013ac                uart_init
+                0x0000000010001424      0x188 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010001424                uart_init
  .text.clocks_init
-                0x0000000010001534      0x2d0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001534                clocks_init
+                0x00000000100015ac      0x2d0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100015ac                clocks_init
  .text.clock_get_hz
-                0x0000000010001804        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001804                clock_get_hz
+                0x000000001000187c        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000000001000187c                clock_get_hz
  .text.pll_init
-                0x0000000010001810       0xa0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001810                pll_init
+                0x0000000010001888       0xa0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001888                pll_init
  .text.watchdog_start_tick
-                0x00000000100018b0       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100018b0                watchdog_start_tick
+                0x0000000010001928       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001928                watchdog_start_tick
  .text.xosc_init
-                0x00000000100018c0       0x28 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x00000000100018c0                xosc_init
+                0x0000000010001938       0x28 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001938                xosc_init
  .text.runtime_init
-                0x00000000100018e8       0xf0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100018e8                runtime_init
- .text._exit    0x00000000100019d8        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100019d8                _exit
- .text.exit     0x00000000100019dc        0x8 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100019dc                exit
- .text.panic    0x00000000100019e4       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100019e4                panic
+                0x0000000010001960       0xf0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001960                runtime_init
+ .text._exit    0x0000000010001a50        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001a50                _exit
+ .text.exit     0x0000000010001a54        0x8 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001a54                exit
+ .text.panic    0x0000000010001a5c       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001a5c                panic
  .text.hard_assertion_failure
-                0x0000000010001a14        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001a14                hard_assertion_failure
+                0x0000000010001a8c        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001a8c                hard_assertion_failure
  .text._out_char
-                0x0000000010001a20       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001a98       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x0000000010001a30       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010001a30                weak_raw_vprintf
- .text          0x0000000010001a60       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010001aa8       0x30 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001aa8                weak_raw_vprintf
+ .text          0x0000000010001ad8       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010001a70       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001a70                rom_func_lookup
+                0x0000000010001ae8       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001ae8                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010001a80       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001a80                rom_data_lookup
+                0x0000000010001af8       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001af8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010001a90       0x44 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001a90                rom_funcs_lookup
+                0x0000000010001b08       0x44 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001b08                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x0000000010001ad4       0x4c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010001ad4                __wrap___aeabi_uidiv
-                0x0000000010001ad4                __wrap___aeabi_uidivmod
-                0x0000000010001ad4                div_u32u32
-                0x0000000010001ad4                divmod_u32u32
-                0x0000000010001adc                divmod_u32u32_unsafe
-                0x0000000010001b04                divmod_u32u32_savestate
+                0x0000000010001b4c       0x4c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010001b4c                __wrap___aeabi_uidiv
+                0x0000000010001b4c                __wrap___aeabi_uidivmod
+                0x0000000010001b4c                div_u32u32
+                0x0000000010001b4c                divmod_u32u32
+                0x0000000010001b54                divmod_u32u32_unsafe
+                0x0000000010001b7c                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x0000000010001b20       0x94 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010001b20                __aeabi_double_init
+                0x0000000010001b98       0x94 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001b98                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010001bb4       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010001bb4                double_table_shim_on_use_helper
+                0x0000000010001c2c       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010001c2c                double_table_shim_on_use_helper
  .text.__aeabi_float_init
-                0x0000000010001be0       0x64 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010001be0                __aeabi_float_init
+                0x0000000010001c58       0x64 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001c58                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010001c44       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010001c44                float_table_shim_on_use_helper
- .text          0x0000000010001c70       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001c70                __aeabi_mem_init
- .text.memset   0x0000000010001c80        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001c80                __wrap_memset
- .text.memcpy   0x0000000010001c8c        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001c8c                __wrap___aeabi_memcpy
-                0x0000000010001c8c                __wrap_memcpy
+                0x0000000010001cbc       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010001cbc                float_table_shim_on_use_helper
+ .text          0x0000000010001ce8       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001ce8                __aeabi_mem_init
+ .text.memset   0x0000000010001cf8        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001cf8                __wrap_memset
+ .text.memcpy   0x0000000010001d04        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001d04                __wrap___aeabi_memcpy
+                0x0000000010001d04                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010001c98       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001d10       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010001ca8       0xb4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001d20       0xb4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000010001d5c       0xfc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001dd4       0xfc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010001e58       0x98 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001e58                __wrap_putchar
+                0x0000000010001ed0       0x98 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ed0                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010001ef0       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001ef0                __wrap_puts
+                0x0000000010001f68       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001f68                __wrap_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010001f2c       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010001fa4       0x10 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.flash_get_unique_id
-                0x0000000010001f3c       0x40 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010001f3c                flash_get_unique_id
- .text          0x0000000010001f7c       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010001f7c                strlen
+                0x0000000010001fb4       0x40 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010001fb4                flash_get_unique_id
+ .text          0x0000000010001ff4       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010001ff4                strlen
  *(.fini)
- .fini          0x0000000010001fd8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010001fd8                _fini
- *fill*         0x0000000010001fdc        0x4 
- .fini.__stub   0x0000000010001fe0       0x40 linker stubs
+ .fini          0x0000000010002050        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010002050                _fini
+ *fill*         0x0000000010002054        0x4 
+ .fini.__stub   0x0000000010002058       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2127,81 +2126,82 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010002020        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010002020                . = ALIGN (0x4)
+ .eh_frame      0x0000000010002098        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010002098                . = ALIGN (0x4)
 
-.glue_7         0x0000000010002020        0x0
- .glue_7        0x0000000010002020        0x0 linker stubs
+.glue_7         0x0000000010002098        0x0
+ .glue_7        0x0000000010002098        0x0 linker stubs
 
-.glue_7t        0x0000000010002020        0x0
- .glue_7t       0x0000000010002020        0x0 linker stubs
+.glue_7t        0x0000000010002098        0x0
+ .glue_7t       0x0000000010002098        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010002020        0x0
- .vfp11_veneer  0x0000000010002020        0x0 linker stubs
+.vfp11_veneer   0x0000000010002098        0x0
+ .vfp11_veneer  0x0000000010002098        0x0 linker stubs
 
-.v4_bx          0x0000000010002020        0x0
- .v4_bx         0x0000000010002020        0x0 linker stubs
+.v4_bx          0x0000000010002098        0x0
+ .v4_bx         0x0000000010002098        0x0 linker stubs
 
-.iplt           0x0000000010002020        0x0
- .iplt          0x0000000010002020        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010002098        0x0
+ .iplt          0x0000000010002098        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010002020       0xa8
+.rodata         0x0000000010002098       0xb0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
+ .rodata        0x0000000010002098        0x8 CMakeFiles/display.dir/src/main.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010002020       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010002042        0x2 
+                0x00000000100020a0       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100020c2        0x2 
  .rodata.panic.str1.4
-                0x0000000010002044       0x12 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010002056        0x2 
+                0x00000000100020c4       0x12 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x00000000100020d6        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010002058        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100020d8        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x0000000010002064       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100020e4       0x3c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x00000000100020a0        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002120        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x00000000100020ac        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000212c        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x00000000100020b8        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002138        0xc CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x00000000100020c4        0x2 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100020c8                . = ALIGN (0x4)
- *fill*         0x00000000100020c6        0x2 
+                0x0000000010002144        0x2 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010002148                . = ALIGN (0x4)
+ *fill*         0x0000000010002146        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x00000000100020c8                . = ALIGN (0x4)
+                0x0000000010002148                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100020c8                __exidx_start = .
+                0x0000000010002148                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000100020c8                __exidx_end = .
-                0x00000000100020c8                . = ALIGN (0x4)
-                0x00000000100020c8                __binary_info_start = .
+                0x0000000010002148                __exidx_end = .
+                0x0000000010002148                . = ALIGN (0x4)
+                0x0000000010002148                __binary_info_start = .
 
-.binary_info    0x00000000100020c8       0x1c
+.binary_info    0x0000000010002148       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x00000000100020c8        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002148        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x00000000100020cc        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000214c        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x00000000100020d0        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002150        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x00000000100020d4        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002154        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x00000000100020d8        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002158        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x00000000100020dc        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000215c        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x00000000100020e0        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010002160        0x4 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x00000000100020e4                __binary_info_end = .
+                0x0000000010002164                __binary_info_end = .
 
-.rel.dyn        0x00000000100020e4        0x0
- .rel.iplt      0x00000000100020e4        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100020e4                . = ALIGN (0x4)
+.rel.dyn        0x0000000010002164        0x0
+ .rel.iplt      0x0000000010002164        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010002164                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2210,7 +2210,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x2d0 load address 0x00000000100020e4
+.data           0x00000000200000c0      0x2d0 load address 0x0000000010002164
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2295,36 +2295,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x0000000020000390                . = ALIGN (0x4)
                 0x0000000020000390                __data_end__ = .
-                0x00000000100020e4                __etext = LOADADDR (.data)
+                0x0000000010002164                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x0000000020000390        0x0 load address 0x00000000100023b4
+                0x0000000020000390        0x0 load address 0x0000000010002434
  .tm_clone_table
                 0x0000000020000390        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000390        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000390        0x0 load address 0x00000000100023b4
+.igot.plt       0x0000000020000390        0x0 load address 0x0000000010002434
  .igot.plt      0x0000000020000390        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000390        0x0 load address 0x00000000100023b4
+                0x0000000020000390        0x0 load address 0x0000000010002434
                 0x0000000020000390                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100023b4
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002434
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100023b4                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010002434                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100023b4
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002434
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100023b4                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010002434                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000390      0x4d8
                 0x0000000020000390                . = ALIGN (0x4)
@@ -2389,8 +2389,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100023b4        0x0
-                0x00000000100023b4                PROVIDE (__flash_binary_end = .)
+.flash_end      0x0000000010002434        0x0
+                0x0000000010002434                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2399,7 +2399,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020042000                PROVIDE (__stack = __StackTop)
                 0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed)
                 0x0000000000000001                ASSERT (((__binary_info_header_end - __logical_binary_start) <= 0x100), Binary info must be in first 256 bytes of the binary)
-LOAD CMakeFiles/display.dir/Core/src/main.c.obj
+LOAD CMakeFiles/display.dir/src/main.c.obj
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -2469,7 +2469,7 @@ LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /tmp/ccbpjfkr.o
+LOAD /tmp/ccQOX29i.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2493,84 +2493,87 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000001e       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .ARM.attributes
-                0x000000000000004a       0x2c CMakeFiles/display.dir/Core/src/main.c.obj
+                0x000000000000004a       0x2c CMakeFiles/display.dir/src/main.c.obj
  .ARM.attributes
-                0x0000000000000076       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000000000076       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .ARM.attributes
-                0x00000000000000a2       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000000000a2       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .ARM.attributes
-                0x00000000000000ce       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000000000ce       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .ARM.attributes
-                0x00000000000000fa       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000000000fa       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .ARM.attributes
-                0x0000000000000126       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x0000000000000126       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .ARM.attributes
-                0x0000000000000148       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000000000152       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
  .ARM.attributes
-                0x0000000000000174       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000174       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .ARM.attributes
-                0x00000000000001a0       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000000001a0       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .ARM.attributes
-                0x00000000000001cc       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000000001cc       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_time/time.c.obj
  .ARM.attributes
-                0x00000000000001f8       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000000001f8       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .ARM.attributes
-                0x0000000000000224       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000000000224       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .ARM.attributes
-                0x0000000000000250       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000000000250       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .ARM.attributes
-                0x000000000000027c       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x000000000000027c       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .ARM.attributes
-                0x00000000000002a8       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00000000000002a8       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .ARM.attributes
-                0x00000000000002d4       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000000000002d4       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .ARM.attributes
-                0x0000000000000300       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000000000300       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .ARM.attributes
-                0x000000000000032c       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000000000032c       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .ARM.attributes
-                0x0000000000000358       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000000000358       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .ARM.attributes
-                0x000000000000037a       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000000000384       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .ARM.attributes
-                0x00000000000003a6       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000000003a6       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .ARM.attributes
-                0x00000000000003c8       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000000003d2       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .ARM.attributes
-                0x00000000000003ea       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000000003f4       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000416       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000000000416       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .ARM.attributes
-                0x0000000000000438       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000000000442       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .ARM.attributes
-                0x000000000000045a       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000000000464       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000486       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000000000486       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .ARM.attributes
-                0x00000000000004a8       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000000004b2       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .ARM.attributes
-                0x00000000000004ca       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x00000000000004d4       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x00000000000004ec       0x32 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000000004f6       0x22 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x000000000000051e       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000518       0x32 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x000000000000054a       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x000000000000054a       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000000000000576       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000000000576       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .ARM.attributes
-                0x00000000000005a2       0x22 /tmp/ccbpjfkr.o
+                0x00000000000005a2       0x2c CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x00000000000005c4       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00000000000005ce       0x22 /tmp/ccQOX29i.o
  .ARM.attributes
-                0x00000000000005e2       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000000000005f0       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000000000000060e       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+                0x000000000000060e       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x000000000000063a       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
 .comment        0x0000000000000000       0x33
  .comment       0x0000000000000000       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
                                          0x34 (size before relaxing)
- .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/Core/src/main.c.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/src/main.c.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj

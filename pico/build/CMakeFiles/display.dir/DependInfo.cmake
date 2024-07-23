@@ -121,7 +121,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/suyog/stuff/robocon_2024/display_project/pico/Core/src/main.c" "CMakeFiles/display.dir/Core/src/main.c.obj" "gcc" "CMakeFiles/display.dir/Core/src/main.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d"
@@ -179,6 +178,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "/home/suyog/stuff/robocon_2024/display_project/pico/src/main.c" "CMakeFiles/display.dir/src/main.c.obj" "gcc" "CMakeFiles/display.dir/src/main.c.obj.d"
   "/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/display.dir/home/suyog/pico-setup/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 
